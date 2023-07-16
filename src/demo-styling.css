@@ -42,7 +42,7 @@ body{
 .header h1 {
   padding-top:5%;
   margin: 0;
-  font-size: calc(max(5vw, 32px));
+  font-size: calc(max(3vw, 10px));
 }
 
 .header .logo img {
@@ -105,9 +105,7 @@ body{
 
 .resource-list {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: larger;
-  text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
 .resource-list ul {
@@ -115,18 +113,19 @@ body{
   margin: 0 auto;
   list-style: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 2%;
 }
 
 .resource-list li {
-  padding: 2%;
+  padding:0.5rem;
   font-weight: bold;
 }
 
 .resource-list a {
   color: black;
-  line-height: 30px;
+
 }
 
 footer {
